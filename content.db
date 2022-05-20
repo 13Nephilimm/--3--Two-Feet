@@ -1,0 +1,19 @@
+Name: Zachary William Dess
+
+Small Bio: 
+Zachary William "Bill" Dess, known by his stage name Two Feet, 
+is an American singer, songwriter, and producer from New York City.
+Dess used to play locally in jazz and blues ensembles before forming Two Feet.
+After his single "Go Fuck Yourself" became a viral hit on SoundCloud,
+he signed with Republic Records. The single reached number 36 on the US Hot Rock Songs chart. 
+His next single, "I Feel Like I'm Drowning", reached number one on the US Alternative Songs chart in 2018.
+
+Font-Family: font-family: 'Cinzel', serif;
+
+Code:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+Main Color: #f44336
+Secondary Color: #212121

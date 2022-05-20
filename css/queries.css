@@ -1,0 +1,181 @@
+/***********************************/
+/* BELOW 1888px*/
+/***********************************/
+
+@media (max-width: 118em) {
+    .slider {
+        width: 40rem;
+        height: 40rem;
+        background: url(../img/hero-section/hero-1.jpg) 50% 50%;
+    }
+
+    @keyframes slide {
+        25% {
+            background: url(../img/hero-section/hero-2.jpg) 35% 2%;
+        }
+        
+        50% {
+            background: url(../img/hero-section/hero-3.jpg);
+        }
+        
+        75% {
+            background: url(../img/hero-section/hero-4.jpg) 50% 20%;
+        }
+        
+        100% {
+            background: url(../img/hero-section/hero-1.jpg) 50% 50%;
+        }
+    }
+}
+
+/***********************************/
+/* BELOW 1296px*/
+/***********************************/
+
+@media (max-width: 81em) {
+
+    .section-hero {
+        padding: 2.4rem;
+        min-width: 130rem;
+        min-height: 100rem;
+    }
+
+    .hero-container {
+        margin-top: 13rem;
+    }
+
+    .main-header {
+        font-size: 10rem;
+        padding: 1.8rem;
+    }
+
+    .full-name {
+        font-size: 3rem;
+    }
+
+    .btn {
+        padding: 1.2rem 2rem;
+        margin: 1.2rem;
+        min-width: 12rem;
+        font-size: 1.2rem;
+    }
+
+    .top-5 {
+        min-width: 130rem;
+        padding: 4rem;
+    }
+
+    .secondary-header {
+        font-size: 8rem;
+        padding: 4rem 2.2rem;
+    }
+
+    .top-container {
+        gap: 7rem;
+    }
+
+    .full-box {
+        padding: 2rem;
+        width: 120rem;
+        gap: 8rem;
+    }
+
+    .heading-tertiary {
+        font-size: 3.6rem;
+    }
+
+    .paragraph {
+        font-size: 1.8rem;
+    }
+
+    .footer {
+        min-width: 130rem;
+    }
+}
+
+/***********************************/
+/* BELOW 768px*/
+/***********************************/
+
+@media (max-width: 48em) {
+    .main-header {
+        font-size: 10rem;
+        padding: 2rem;
+    }
+
+    .section-hero {
+        padding: 2.8rem;
+        min-width: 130rem;
+        min-height: 120rem;
+    }
+
+    .hero-container {
+        margin-top: 16rem;
+    }
+
+    .secondary-header {
+        font-size: 6.4rem;
+        padding: 4rem 2.2rem;
+    }
+
+}
+
+/***********************************/
+/* BELOW 512px */
+/***********************************/
+
+@media (max-width: 32em) {
+    .section-hero {
+        min-height: 200rem;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25rem;
+   }
+
+   .full-name {
+       font-size: 6.4rem;
+   }
+
+   .main-header {
+       font-size: 13rem;
+   }
+
+    .text {
+        padding: 1.2rem 9.6rem;
+        font-size: 3.6rem;
+        max-width: 120rem;
+    }
+
+    .slider {
+        width: 55rem;
+        height: 55rem;
+    }
+
+    .btn {
+        font-size: 2.4rem;
+        padding: 2rem 3.5rem;
+    }
+
+    .side-nav {
+        top: 50%;
+        transform: translateY(-200%); 
+    }
+
+    .side-nav a {
+        margin-left: -8rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .paragraph {
+        font-size: 2.5rem;
+    }
+
+    .icon {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+}
