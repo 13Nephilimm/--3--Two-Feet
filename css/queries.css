@@ -105,7 +105,7 @@
 
     .section-hero {
         padding: 2.8rem;
-        min-width: 130rem;
+        max-width: 76.8rem;
         min-height: 120rem;
     }
 
